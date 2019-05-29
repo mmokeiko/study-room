@@ -145,6 +145,15 @@ function check_password($password, $hashed_password){
 </div>
 </div>";
 	}
+        
+        //共通フッター部分
+	function html_footer() {
+		print "
+<!--Googleアナリティクスのコードをここに入れる-->
+<!-- container end -->
+</body>
+</html>";
+	}
 	
 	// エラーメッセージ表示関数　戻るボタン（history.back()）
 	function err_msg($msg) {

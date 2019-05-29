@@ -48,5 +48,6 @@
     </table>
 </div>
 {if ($debug_str)}<pre>{$debug_str}</pre>{/if}
+<!--Googleアナリティクスのコードをここに入れる-->
 </body>
 </html>
