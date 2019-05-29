@@ -1,0 +1,14 @@
+CREATE TABLE school_yotei (
+    id          INT NOT NULL AUTO_INCREMENT,
+    date1       DATE NOT NULL,
+    time1       VARCHAR(50) NOT NULL,
+    date2       DATE NOT NULL,
+    time2       VARCHAR(50) NOT NULL,
+    name        VARCHAR(50) NOT NULL,
+    shozoku     VARCHAR(50) NOT NULL,
+    room        VARCHAR(50) NOT NULL,
+    biko        VARCHAR(100) NOT NULL,
+    flag        INT(4) NOT NULL DEFAULT 0,
+    timestamp   VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);

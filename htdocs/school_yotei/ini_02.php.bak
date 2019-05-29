@@ -1,0 +1,82 @@
+<?php
+    //define('_ROOT_DIR', __DIR__ . '/');
+    //require_once _ROOT_DIR . '../php_libs/init.php';
+    require_once __DIR__ . '/../../php_libs/init.php';
+
+    //----------------------------------------------------
+    // URL/CSS/JSファイル関連
+    //----------------------------------------------------
+    $rootURL = 'http://localhost/'; // rootURL
+    $fileCSS = 'http://localhost/tennis_yotei_master/css/yotei.css';
+    $fileJS = 'http://localhost/tennis_yotei_master/js/yotei.js';
+    
+    
+    //----------------------------------------------------
+    // データベース関連 ini.phpを見に行くようにする為、コメントアウトする
+    //----------------------------------------------------
+    // データベース接続ユーザー名
+    //define("_DB_USER", "schooluser");
+    // データベース接続パスワード
+    //define("_DB_PASS", "password");
+    // データベースホスト名
+    //define("_DB_HOST", "localhost");
+    // データベース名
+    //define("_DB_NAME", "school_jishu");
+    // データベースの種類
+    //define("_DB_TYPE", "mysql");
+    // データソースネーム
+    //define("_DSN", _DB_TYPE . ":host=" . _DB_HOST . ";dbname=" . _DB_NAME. ";charset=utf8");
+    // テーブル名
+    $yotei_table = "school_yotei";
+    
+    //----------------------------------------------------
+    // ログインパスワード関連
+    //----------------------------------------------------
+    // 管理者・ユーザともに、同じパスワードを使いまわしている簡易な設計になっています。
+    $admin_pass = "password";
+    
+    $fileLOGOUT = '../index.php'; // ログアウト
+    $fileMAIN = 'deep_tennis_main.php'; // メイン画面
+    $fileADD = 'deep_tennis_add.php'; // 予定を追加
+    $fileEDIT = 'deep_tennis_edit.php'; // 予定を変更
+    $fileDEL = 'deep_tennis_del.php'; // 予定を削除
+    $fileJOIN = 'deep_tennis_join.php'; // 参加を表明
+    $fileCANCEL = 'deep_tennis_cancel.php'; // 参加を取り消す
+    $fileHELP = 'yotei_help.php'; // ヘルプ
+
+    $myself = $_SERVER["PHP_SELF"];
+	
+    // ページのエンコーディング
+    $page_enc = "UTF-8";
+
+    // DB保存時のエンコーディング
+    $db_enc = "UTF-8";
+	
+    // アプリケーション名
+    $appli_name = "テニススケジュール管理システム<br />DEEP TENNIS version 2.0";
+	
+    // タイトル名
+    $title = "テニススケジュール管理システム　DEEP TENNIS version 2.0";
+	
+    // 主宰者名
+    $syusaisya = "ホンダカオル";
+
+    //参加表明のデッドライン日。2の場合は、土曜日が当日の場合、金曜日になった瞬間に参加表明ができなくなる
+    $deadlineDay = 2;
+    
+    //----------------------------------------------------
+    // 文字列の長さ最大値チェック用
+    //----------------------------------------------------
+    // 場所の文字列の最大文字数
+    define("_PLACE_LEN_MAX", 100);
+    
+    // 場所の文字列の最大文字数
+    define("_PLACE2_LEN_MAX", 100);
+    
+    // 世話人名の文字列の最大文字数
+    define("_SEWANIN_LEN_MAX", 100);
+    
+    // コメントの文字列の最大文字数
+    define("_COMMENT_LEN_MAX", 2000);
+    
+?>
