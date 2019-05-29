@@ -175,7 +175,11 @@ require_once '../../php_libs/init.php';
 
 
 </div>
-<!-- center end -->
+
+<?php
+	//フッター部分表示
+	html_footer();
+?>
 
 
 <?php

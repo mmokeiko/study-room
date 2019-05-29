@@ -87,7 +87,11 @@
 </ul>
 </div>
 </div>
-<!-- center end -->
+
+<?php
+	//フッター部分表示
+	html_footer();
+?>
 
 
 <?php
