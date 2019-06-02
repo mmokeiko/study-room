@@ -29,20 +29,24 @@ ini_set( "error_reporting", E_ALL );
 //ini_set( "error_reporting", E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED );
 
 //----------------------------------------------------
-// データベース関連
+// データベース関連　xサーバー時とローカル時で切り替える
 //----------------------------------------------------
 
 // データベース接続ユーザー名
-define("_DB_USER", "kaiinuser");
-
+//define("_DB_USER", "kaiinuser");
+  define("_DB_USER", "mmokeiko_kaiin");
+  
 // データベース接続パスワード
-define("_DB_PASS", "password");
+//define("_DB_PASS", "password");
+define("_DB_PASS", "pass73kaiin");
 
 // データベースホスト名
-define("_DB_HOST", "localhost");
+//define("_DB_HOST", "localhost");
+define("_DB_HOST", "mysql8031.xserver.jp");
 
 // データベース名
-define("_DB_NAME", "kaiin");
+//define("_DB_NAME", "kaiin");
+define("_DB_NAME", "mmokeiko_kaiin");
 
 // データベースの種類
 define("_DB_TYPE", "mysql");
@@ -152,7 +156,9 @@ require_once( _CLASS_DIR      . "SystemModel.php");
 require_once(_PHP_LIBS_DIR . "global.php");
 // 20190430
 //----------------------------------------------------
-// ini.php, lib_02.phpの読み込み
+// ini.php, lib_02.phpの読み込み xサーバー時とローカル時で切り替える
 //----------------------------------------------------
-require_once(_ROOT_DIR . "../htdocs/school_yotei/ini_02.php");
-require_once(_ROOT_DIR . "../htdocs/school_yotei/lib_02.php");
+//require_once(_ROOT_DIR . "../htdocs/school_yotei/ini_02.php");
+require_once(_ROOT_DIR . "../study-room/school_yotei/ini_02.php");
+//require_once(_ROOT_DIR . "../htdocs/school_yotei/lib_02.php");
+require_once(_ROOT_DIR . "../study-room/school_yotei/lib_02.php");
