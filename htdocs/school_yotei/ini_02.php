@@ -8,8 +8,8 @@
     // URL/CSS/JSファイル関連
     //----------------------------------------------------
     $rootURL = 'http://localhost/'; // rootURL
-    $fileCSS = 'http://localhost/master/Section77/htdocs/css/yotei.css';
-    $fileJS = 'http://localhost/master/Section77/htdocs/js/yotei.js';
+    $fileCSS = 'http://localhost/master/study-room/htdocs/css/yotei.css';
+    $fileJS = 'http://localhost/master/study-room/htdocs/js/yotei.js';
     
     
     //----------------------------------------------------

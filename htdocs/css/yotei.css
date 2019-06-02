@@ -15,7 +15,7 @@ body {
 	text-align: center;
 	background:#000;
 	color:#FFF;
-	font-size:90%;
+	font-size:130%;
 	line-height:130%;
 }
 ul {
@@ -71,7 +71,7 @@ div#header {
 	background:#444;
 }
 div#center {
-	width: 640px;
+	width: 700px;
 	margin: 0px;
 	padding: 0px;	
 	text-align: center;
@@ -113,18 +113,21 @@ table#yotei th {
 	background:#555;
 }
 table#yotei th.day {
-	width:70px;
+	width: 70px;
 }
 table#yotei th.time {
-	width:80px;
+	width: 80px;
 }
 table#yotei th.shozoku {
-	width:40px;
+	width: 30px;
 }
 table#yotei th.room {
-	width:40px;
+	width: 80px;
+       
 }       
-
+table#yotei th.member {
+	width: 50px;
+}
 table#yotei td.center {
 	text-align: center;
     
@@ -276,7 +279,7 @@ input#btnDel {
 }
 input#btnDelBack {
 	width: 130px;
-	margin: 18px 5px 10px 0px;
+	margin: 26px 5px 10px 0px;
 	padding: 0px 0px 0px 0px;
 	float: left;
 }
@@ -339,7 +342,7 @@ div#center form {
 	padding: 4px;	
 	text-align: right;
 	color: #CCC;
-	font-size:90%;
+	font-size:100%;
 }
 div#center form input#pass {
 	margin: 0px 5px 0px 5px;
@@ -374,7 +377,7 @@ table#kaiin{
 div#kaiincenter {        
 text-align: center;
 background:#fff;
-font-size:150%;
+font-size:120%;
 line-height:130%;
 margin: 0 auto;
 }

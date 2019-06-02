@@ -213,13 +213,12 @@ $pdo = db_connect();
 <div class="submitDel2">
 
 <form id="btnDel" method="post" action="school_del3.php">
-<input type="hidden" name="id" value="<?=$id?>" />
 <input type="submit" id="btnDel" name="btnDel" value="自習室の予約を削除" />
+<input type="hidden" name="id" value="<?=$id?>" />
 </form>
-
+    
 <input type="button" id="btnDelBack" name="btnDelBack" value="一つ前に戻る" onClick="history.back()" />
 </div>
-
 
 </div>
 
