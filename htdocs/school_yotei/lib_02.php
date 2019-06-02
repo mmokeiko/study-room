@@ -5,14 +5,14 @@
 //----------------------------------------------------
 /**
  * PDOインスタンスを作成し、DBに接続する。
- * 接続に必要なパラメータ(_DSN_tennis, _DB_USER, _DB_PASS)は、別途定数で定義。
+ * 接続に必要なパラメータ(_DSN, _DB_USER, _DB_PASS)は、別途定数で定義。
  *
  * @param なし
  * @return PDOオブジェクト
  */
 function db_connect(){
     try {
-      $pdo = new PDO(_DSN, _DB_USER, _DB_PASS);//4.16ここの部分を変更した
+      $pdo = new PDO(_DSN, _DB_USER, _DB_PASS);
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     } catch(PDOException $Exception) {
@@ -24,7 +24,7 @@ function db_connect(){
 
 /**
  * PDOを使って、SQLを実行
- * 接続に必要なパラメータ(_DSN_tennis, _DB_USER, _DB_PASS)は、別途定数で定義。
+ * 接続に必要なパラメータ(_DSN, _DB_USER, _DB_PASS)は、別途定数で定義。
  *
  * @param SQLステートメント。
  * @param execute() にわたす[array input_parameters]パラメータのarray。パラメータマーカに PHP 変数をバインドする

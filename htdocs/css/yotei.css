@@ -68,10 +68,10 @@ div#header {
 	margin: 16px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;	
 	text-align: left;
-	background:#444;
+	background:#333;
 }
 div#center {
-	width: 700px;
+	width: 640px;
 	margin: 0px;
 	padding: 0px;	
 	text-align: center;
