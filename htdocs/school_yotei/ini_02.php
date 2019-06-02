@@ -7,9 +7,12 @@
     //----------------------------------------------------
     // URL/CSS/JSファイル関連
     //----------------------------------------------------
-    $rootURL = 'http://localhost/'; // rootURL
-    $fileCSS = 'http://localhost/master/study-room/htdocs/css/yotei.css';
-    $fileJS = 'http://localhost/master/study-room/htdocs/js/yotei.js';
+    //$rootURL = 'http://localhost/'; // rootURL
+    $rootURL = 'http://mmokeiko.com/study-room/index.php'; // rootURL
+    //$fileCSS = 'http://localhost/master/study-room/htdocs/css/yotei.css';
+    $fileCSS = 'http://mmokeiko.com/study-room/css/yotei.css';
+    //$fileJS = 'http://localhost/master/study-room/htdocs/js/yotei.js';
+    $fileJS = 'http://mmokeiko.com/study-room/js/yotei.js';
     
     
     //----------------------------------------------------

@@ -1,4 +1,4 @@
-CREATE TABLE school_yotei (
+CREATE TABLE school (
     id          INT NOT NULL AUTO_INCREMENT,
     date1       DATE NOT NULL,
     time1       VARCHAR(50) NOT NULL,

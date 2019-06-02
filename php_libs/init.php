@@ -34,7 +34,7 @@ ini_set( "error_reporting", E_ALL );
 
 // データベース接続ユーザー名
 //define("_DB_USER", "kaiinuser");
-  define("_DB_USER", "mmokeiko_kaiin");
+  define("_DB_USER", "mmokeiko_user");
   
 // データベース接続パスワード
 //define("_DB_PASS", "password");
