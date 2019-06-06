@@ -2,7 +2,6 @@
 <html lang="ja">
 <head>
 <title>{$title}</title>
-<script type="text/javascript" src="js/quickform.js" async></script>
 </head>
 <body>
 <div style="text-align:center;">

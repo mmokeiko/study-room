@@ -381,7 +381,7 @@ class MemberController extends BaseController
     会員システム
 
 EOM;
-        $add_header = "From: program.enji@gmail.com";
+        $add_header = "From:info@mmokeiko.com";
 
         //$add_header .= "From: xxxx@xxxxxxx\nCc: xxxx@xxxxxxx";
 

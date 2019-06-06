@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+{literal}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141271019-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141271019-1');
+</script>
+{/literal}
 <title>{$title}</title>
 </head>
 <body>
@@ -48,6 +59,5 @@
     </table>
 </div>
 {if ($debug_str)}<pre>{$debug_str}</pre>{/if}
-<!--Googleアナリティクスのコードをここに入れる-->
 </body>
 </html>

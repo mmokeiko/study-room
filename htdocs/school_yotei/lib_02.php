@@ -110,6 +110,16 @@ function check_password($password, $hashed_password){
 		
 		print "<!DOCTYPE html>
 <html lang=\"ja\"><head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-141271019-1\"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141271019-1');
+</script>
+
 <title>".$title."</title>
 <meta http-equiv=\"Content-Type\" content=\"text/html; charset=".$page_enc."\" />
 <meta http-equiv=\"Content-Language\" content=\"ja\" />
@@ -149,7 +159,8 @@ function check_password($password, $hashed_password){
         //共通フッター部分
 	function html_footer() {
 		print "
-<!--Googleアナリティクスのコードをここに入れる-->
+
+
 <!-- container end -->
 </body>
 </html>";
